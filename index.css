@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: 'Playpen Sans', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#todo-table-container > table {
+  border-collapse: collapse;
+  margin-bottom: 80px;
+}
+
+#todo-table-container tr {
+  border-bottom: 1px solid white;
+}
+
+#todo-table-container th,
+#todo-table-container td {
+  padding: 10px;
+}
